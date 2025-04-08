@@ -1,68 +1,22 @@
 # Python-Learner-Mini-Projects-
-Rock,Paper,scissors Game
+This is a simple, interactive implementation of the classic "Rock, Paper, Scissors" game built using Python. The game allows users to play against the computer by selecting one of three options: Rock, Paper, or Scissors. The computer randomly selects one of the options as well, and the game determines the winner based on the rules of Rock, Paper, Scissors.
 
-rock='''        ,--.--._
-------" _, \___)
-        / _/____)
-        \//(____)
-------\     (__)
-       `-----" '''
+## Features
+User can input their choice (Rock, Paper, or Scissors).
 
-scissors='''   _       ,/'
-   (_).  ,/'
-   __  ::
-  (__)'  `\.
-            `\.'''
-            
-paper='''  _ __   __ _ _ __   ___ _ __ 
-| '_ \ / _` | '_ \ / _ \ '__|
-| |_) | (_| | |_) |  __/ |   
-| .__/ \__,_| .__/ \___|_|   
-| |         | |              
-|_|         |_|             '''
+Computer randomly selects its choice.
 
-import random
-list=[rock,scissors,paper]
-com_idx=random.randint(0,2)
-computer_choice=list[com_idx]
-choose=int(input('What do you choose? Type 0 for Rock, 1 for scissors or 2 paper'))
-if choose==0:
-    print(list[0])
-    print(f'''Computer Choose:     
-{computer_choice}''')
-    if choose==0 and com_idx==0:
-        print('Draw')
-    elif choose==0 and com_idx==1:
-        print('You Win')
-    else:
-        print('You lose')
-    
+The game checks the winner based on the traditional rules:
 
-elif choose==1:
-    print(list[1])
-    print(f'''Computer Choose:     
-{computer_choice}''')
-    if choose==1 and com_idx==1:
-        print('Draw')
-    elif choose==1 and com_idx==0:
-        print('You Lose')
-    else:
-        print('You Win')
+Rock beats Scissors.
 
-elif choose==2:
-    print(list[2])
-    print(f'''Computer Choose:     
-{computer_choice}''')
-    if choose==2 and com_idx==2:
-        print('Draw')
-    elif choose==2 and com_idx==1:
-        print('You Lose')
-    else:
-        print('You Win')
+Scissors beats Paper.
 
+Paper beats Rock.
 
+A simple and easy-to-understand command-line interface.
 
-       
+Option to play multiple rounds with the game prompting for user input after each round.
 
     
 
