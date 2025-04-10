@@ -1,4 +1,4 @@
-# 🐍 Python-Learner-Mini-Projects-
+# 🐍 Python_Learner_Mini_Projects
 Python Mini Projects
 Welcome to my collection of Python mini projects!
 This repository is a personal learning space where I build small and fun projects to strengthen my Python skills.
