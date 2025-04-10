@@ -1,0 +1,35 @@
+bid={
+    "James":0,
+    "Henry":0,
+    "Carl":0,
+}
+name=input('whats yours name ?')
+amt=int(input('whats your bid? '))
+if name.lower()=='james':
+        bid['James']=amt
+elif name.lower()=='henry':
+        bid['Henry']=amt
+elif name.lower()=='carl':
+        bid['Carl']=amt
+print('\n'*20)        
+nxt=input('do you want another guess ?')
+while  nxt.lower()=='yes':
+    name=input('whats yours name ?')
+    amt=int(input('whats your bid? '))
+    print('\n'*20) 
+    if name.lower()=='james':
+        bid['James']=amt
+    elif name.lower()=='henry':
+        bid['Henry']=amt
+    elif name.lower()=='carl':
+        bid['Carl']=amt
+    nxt=input('do you want another guess ?') 
+    if nxt.lower()=='no':
+        break
+high_amt=0
+winner=""
+for key in bid:
+    if bid[key]>high_amt:
+        high_amt=bid[key]
+        winner= key       
+print(f'Max bid by {winner} ${high_amt}')
