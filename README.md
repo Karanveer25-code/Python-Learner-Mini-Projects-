@@ -1,25 +1,44 @@
-# Python-Learner-Mini-Projects-
-This is a simple, interactive implementation of the classic "Rock, Paper, Scissors" game built using Python. The game allows users to play against the computer by selecting one of three options: Rock, Paper, or Scissors. The computer randomly selects one of the options as well, and the game determines the winner based on the rules of Rock, Paper, Scissors.
+# 🐍 Python-Learner-Mini-Projects-
+Python Mini Projects
+Welcome to my collection of Python mini projects!
+This repository is a personal learning space where I build small and fun projects to strengthen my Python skills.
+Each project is designed to practice different concepts like functions, loops, file handling, OOP, and working with external libraries.
 
-## Features
-User can input their choice (Rock, Paper, or Scissors).
+📌 What's Inside
+You'll find a variety of bite-sized Python projects, such as:
 
-Computer randomly selects its choice.
-
-The game checks the winner based on the traditional rules:
-
-Rock beats Scissors.
-
-Scissors beats Paper.
-
-Paper beats Rock.
-
-A simple and easy-to-understand command-line interface.
-
-Option to play multiple rounds with the game prompting for user input after each round.
-
+    🎮 Rock, Paper, Scissors Game
     
+    🧮 Simple Calculator
+    
+    🔢 Number Guessing Game
 
+
+
+🛠 Tech Used
+
+    Python 3.x
+    
+    Standard Libraries
+    
+    Some third-party modules (details in each project folder)
+
+
+
+📚 Learning Goals
+
+    Improve problem-solving skills
+    
+    Understand basic to intermediate Python concepts
+    
+    Practice clean code and file organization
+    
+    Get comfortable with Git and GitHub
+
+🌱 Still Growing...
+
+I'm continuously adding new projects as I explore more of Python.
+Feel free to fork this repo, try the projects yourself, or even suggest new ideas!
 
 
 
