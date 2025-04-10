@@ -11,7 +11,9 @@ You'll find a variety of bite-sized Python projects, such as:
     
     🧮 Simple Calculator
     
-    🔢 Number Guessing Game
+    🔢 Random Passward Generator
+
+    💰 Bid Game
 
 
 
