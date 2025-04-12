@@ -15,6 +15,8 @@ You'll find a variety of bite-sized Python projects, such as:
 
     💰 Bid Game
 
+    🎯 Number Guessing Game
+
 
 
 🛠 Tech Used
